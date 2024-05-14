@@ -1,0 +1,40 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient(to right bottom,#ac7d4b, #e6ded7, #96592e) ;
+    height: 100vh; 
+    display: flex;
+    
+}
+#nav{
+    margin: 0;
+    padding: 15px;
+    height: 10%;
+    width: 100vw;
+    display: flex;
+    background-color: #865d36;
+    justify-content:left;
+    gap: 40px;
+    align-items: center;
+}
+
+li{
+    list-style-type: none;
+    font-weight: 100;
+}
+h1:hover{
+    background-color: pink;
+
+}
+
+#menu{
+    list-style-type: none;
+    padding: 10px;
+    margin: 20px;
+    background-color: burlywood;
+    position: absolute;
+    display: none;
+}
+#nav:hover #menu{
+    display: block;
+}
